@@ -1,38 +1,223 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  font-family: sans-serif,monospace;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+:root{
+  --main-color:#cd5ff8;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+::-webkit-scrollbar{
+  width: 8px;
+}
+::-webkit-scrollbar-track{
+  background-color: rgba(33,32,56,.8470588235294118)!important;
+}
+::-webkit-scrollbar-thumb{
+  background-color: var(--main-color);
+  border-radius: 20px;
+}
+/* navbar */
+.navbar{
+  background-color: rgba(33,32,56,.8470588235294118)!important;
+  padding: 10px 0px!important;
+  position: fixed!important;
+  width: 100%;
+  z-index: 999;
+}
+.navbar .container{
+  width: 75%;
+  margin: 0px auto;
+}
+.navbar ul li{
+  margin-left: 40px;
+  position: relative;
+}
+.navbar ul li a{
+  color: white;
+  position: relative;
+  display: inline;
+  font-size: 20px;
+}
+.navbar ul li i{
+  font-size: 20px;
+  color: #fff;
+}
+.navbar ul li::after{
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 11%;
+  background-color: #cd5ff8;
+  border-radius: 5px;
+  left: 0px;
+  bottom: -14px;
+  transition: .4s;
+}
+.navbar ul li a:hover{
   color: white;
 }
+.navbar ul li a:focus{
+  color: white;
+}
+.navbar ul li:hover::after{
+  width: 100%!important;
+}
+.navbar-toggler:focus{
+  box-shadow: none!important;
+}
+.navbar-toggler[aria-expanded=true]{
+  border:2px solid var(--main-color);
+}
+@media (max-width: 992px){
+  .navbar ul li{
+    margin-top: 20px;
+    margin-left: 0px;
 
-.App-link {
-  color: #61dafb;
+  }
+  .navbar ul{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar ul i{
+    margin-right: 10px;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* end navbar */
+/* typewriter */
+h1 {
+  font-size: 9vmin;
+  font-weight: 700;
+}
+
+/* Typewriter effect 1 */
+@keyframes typing {
+  0.0000%, 27.3488% { content: ""; }
+  1.1395%, 26.2093% { content: "d"; }
+  2.2791%, 25.0698% { content: "de"; }
+  3.4186%, 23.9302% { content: "dev"; }
+  4.5581%, 22.7907% { content: "deve"; }
+  5.6977%, 21.6512% { content: "devel"; }
+  6.8372%, 20.5116% { content: "develo"; }
+  7.9767%, 19.3721% { content: "develop"; }
+  9.1163%, 18.2326% { content: "develope"; }
+  10.2558%, 17.0930% { content: "developer"; }
+
+  30.7674%, 51.2791% { content: ""; }
+  31.9070%, 50.1395% { content: "F"; }
+  33.0465%, 49.0000% { content: "Fr"; }
+  34.1860%, 47.8605% { content: "Fro"; }
+  35.3256%, 46.7209% { content: "Fron"; }
+  36.4651%, 45.5814% { content: "Front"; }
+  37.6047%, 44.4419% { content: "FrontE"; }
+  38.6043%, 43.4410% { content: "FrontEnd"; }
+
+
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.typewriter {
+  --caret: currentcolor;
+}
+
+.typewriter::before {
+  content: "";
+  animation: typing 8s infinite;
+}
+
+.typewriter::after {
+  content: "";
+  border-right: 1px solid var(--caret);
+  animation: blink 0.5s linear infinite;
+}
+
+.typewriter.thick::after {
+  border-right: 1ch solid var(--caret);
+}
+
+.typewriter.nocaret::after {
+  border-right: 0;
+}
+
+
+@media (prefers-reduced-motion) {
+  .typewriter::after {
+    animation: none;
   }
-  to {
-    transform: rotate(360deg);
+  
+  @keyframes sequencePopup {
+    0% { content: "developer"; }
+   100% { content: "FrontEnd"; }
+  }
+
+  .typewriter::before {
+    content: "developer";
+    animation: sequencePopup 12s linear infinite;
   }
 }
+/* end typewriter */
+/* touch */
+.touch a{
+  background: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: #700c86!important;
+    font-size: 22px;
+    transition: .4s;
+}
+.touch a:hover{
+  box-shadow: 0px 0px 10px var(--main-color);
+}
+/* end touch */
+/* footer */
+.footer{
+  padding: 15px 0px;
+  background-color: rgba(33,32,56,.8470588235294118)!important;
+}
+/* end footer */
+/* profisional-skills */
+.profisional-skills img{
+  height: 111px;
+}
+.profisional-skills .card{
+  margin-bottom: 20px;
+  background: none;
+  border-radius: 3px;
+  border: 1px var(--main-color) solid;
+}
+/* projects */
+.projects .row .card{
+  background: none;
+  border: 1px solid var(--main-color);
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.projects .row .card .card-body{
+  padding-bottom: 40px;
+}
+.projects .row .card h4{
+  margin: 40px 0px;
+}
+.projects .row .card a{
+  padding: 10px 20px;
+  border: 1px solid var(--main-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: .4s;
+}
+.projects .row .card a:hover{
+  color: #000;
+  background: var(--main-color);
+}
+/* end projects */
