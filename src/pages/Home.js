@@ -36,7 +36,7 @@ export const Home = () => {
             </Row>
             <div className='touch text-center py-5'>
                <h1 style={{color:"#fff",marginBottom:"30px",fontSize:"40px"}}>Get In <span style={{color:"var(--main-color)"}}>Touch</span></h1>
-               <a href="https://www.instagram.com/frontend709/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+               <a href="https://www.instagram.com/front_end713/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                <a style={{marginLeft:"20px"}} href="https://web.facebook.com/profile.php?id=100088567061728"  target="_blank" ><i class="fa-brands fa-facebook"></i></a>
                <a style={{marginLeft:"20px"}} href="https://twitter.com/Front_Joo" target="_blank"><i class="fa-brands fa-twitter"></i></a>
                <a style={{marginLeft:"20px"}} href="https://github.com/yousef1242?tab=repositories" target="_blank"><i class="fa-brands fa-github"></i></a>

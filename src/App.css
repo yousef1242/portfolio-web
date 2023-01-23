@@ -131,7 +131,7 @@ h1 {
 
 .typewriter::before {
   content: "";
-  animation: typing 8s infinite;
+  animation: typing 5s infinite;
 }
 
 .typewriter::after {
@@ -155,7 +155,7 @@ h1 {
   }
   
   @keyframes sequencePopup {
-    0% { content: "developer"; }
+    50% { content: "developer"; }
    100% { content: "FrontEnd"; }
   }
 
@@ -219,5 +219,21 @@ h1 {
 .projects .row .card a:hover{
   color: #000;
   background: var(--main-color);
+}
+@media screen and (max-width:924px) {
+  .footer-par{
+    width: 100%!important;
+    text-align: center!important;
+    margin-bottom: 10px;
+  }
+  .footer-links{
+    width: 100%!important;
+    text-align: center!important;
+  }
+}
+@media screen and (min-width:924px) {
+  .footer-links{
+    text-align: end!important;
+  }
 }
 /* end projects */
