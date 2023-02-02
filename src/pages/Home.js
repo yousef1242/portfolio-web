@@ -13,9 +13,7 @@ export const Home = () => {
                <div className='col-xxl-6 col-lg-6 col-md-6 col-sm-12 ' style={{paddingTop:"5rem"}}>
                   <h2 style={{color:"#fff",marginBlock:"20px"}}>Hello!</h2>
                   <h1 style={{fontWeight:"bold",color:"#fff",marginBottom:"40px"}}>I'M <span style={{color:"var(--main-color)"}}>YOUSEF AHMED</span></h1>
-                  <h1 style={{fontWeight:"bold",color:"var(--main-color)"}} aria-label=" FrontEnd">
-                    &nbsp;<span class="typewriter"></span>
-                  </h1>
+                  <h1 style={{fontWeight:"bold",color:"#fff",marginBottom:"40px"}}>I'M <span style={{color:"var(--main-color)"}}>Front_end_developer</span></h1>
                </div>
                <div className='col-xxl-6 col-lg-6 col-md-6 col-sm-12 text-center'>
                   <img alt="" style={{    height: "423px"}} className='img-fluid' src={img1}/>
@@ -36,7 +34,7 @@ export const Home = () => {
             </Row>
             <div className='touch text-center py-5'>
                <h1 style={{color:"#fff",marginBottom:"30px",fontSize:"40px"}}>Get In <span style={{color:"var(--main-color)"}}>Touch</span></h1>
-               <a href="https://www.instagram.com/front_end713/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+               <a href="https://www.instagram.com/yousef__1241/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                <a style={{marginLeft:"20px"}} href="https://web.facebook.com/profile.php?id=100088567061728"  target="_blank" ><i class="fa-brands fa-facebook"></i></a>
                <a style={{marginLeft:"20px"}} href="https://twitter.com/Front_Joo" target="_blank"><i class="fa-brands fa-twitter"></i></a>
                <a style={{marginLeft:"20px"}} href="https://github.com/yousef1242?tab=repositories" target="_blank"><i class="fa-brands fa-github"></i></a>
