@@ -14,15 +14,19 @@ export const NavbarApp = () => {
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
         <i  class="fa-solid fa-house"></i>
-          <Link class="nav-link" aria-current="page" to="/">Home</Link>
+          <a class="nav-link" aria-current="page" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+        <i class="fa-solid fa-address-card"></i>
+          <a class="nav-link" aria-current="page" href="#aboutMe">About Me</a>
         </li>
         <li class="nav-item">
         <i class="fa-solid fa-graduation-cap"></i>
-          <Link class="nav-link" to="skills">Skills</Link>
+        <a class="nav-link" aria-current="page" href="#skills">Skills</a>
         </li>
         <li class="nav-item">
         <i class="fa-solid fa-laptop-code"></i>
-          <Link class="nav-link" to="projects">Projects</Link>
+        <a class="nav-link" aria-current="page" href="#project">Projects</a>
         </li>
       </ul>
     </div>
