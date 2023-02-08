@@ -41,7 +41,7 @@ export const Home = () => {
          <video className='w-100 ' controls>
          <source className='img-fluid' src={video1} type='video/mp4'/>
          </video>
-         <h2 style={{color:"#fff",textAlign:"center"}}>Check out my profile on fiverr: <a style={{fontSize:"20px"}} href='https://www.fiverr.com/yousefjoo766' target="_blank">https://www.fiverr.com/yousefjoo766</a></h2>
+         <h2 style={{color:"#fff",textAlign:"center"}}>Check out my profile on fiverr: <a style={{fontSize:"16px"}} href='https://www.fiverr.com/yousefjoo766' target="_blank">https://www.fiverr.com/yousefjoo766</a></h2>
       </div>
       
             <Skils/>
