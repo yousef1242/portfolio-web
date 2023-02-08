@@ -10,7 +10,7 @@ import img6 from "../imgs/Screenshot_20230121_083536.png"
 export const Projects = () => {
   return (
     <>
-       <div className='projects' id='project' style={{paddingTop:"130px",paddingBottom:"100px"}}>
+       <div className='projects' id='project' style={{paddingTop:"110px",paddingBottom:"0px"}}>
           <Container>
           <h1 className='text-center py-5' style={{color:"#fff"}}>Project<span style={{color:"var(--main-color)"}}>s</span></h1>
              <Row>

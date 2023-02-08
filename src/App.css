@@ -171,4 +171,14 @@ h1 {
     text-align: end!important;
   }
 }
+@media screen and (min-width:924px) {
+  .video-section{
+    width: 55%!important;
+  }
+}
+@media screen and (max-width:924px) {
+  .video-section{
+    width: 100%!important;
+  }
+}
 /* end projects */

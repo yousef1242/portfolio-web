@@ -5,11 +5,12 @@ import img2 from "../imgs/avatar.5852f40f.svg"
 import { Projects } from './Projects'
 import {Skils} from "./Skils"
 import img3 from "../imgs/Get in touch-amico.png"
+import video1 from "../imgs/Violet and Green Start-up Business Animated Presentation.mp4"
 
 export const Home = () => {
   return (
     <>
-      <div className='home-front ' id='home' style={{padding:"12rem 0rem 12rem 0rem"}}>
+      <div className='home-front ' id='home' style={{padding:"8rem 0rem 8rem 0rem"}}>
          <Container style={{width:"80%",margin:"0px auto"}}>
             <Row>
                <div className='col-xxl-6 col-lg-6 col-md-6 col-sm-12 ' style={{paddingTop:"5rem"}}>
@@ -25,7 +26,7 @@ export const Home = () => {
       </div>
       <div className='home-about py-4' id='aboutMe'>
          <Container>
-            <h1 className="text-center" style={{color:"#fff",marginBottom:"5rem"}}>ABOUT <span style={{color:"var(--main-color)"}}>ME</span></h1>
+            <h1 className="text-center" style={{color:"#fff",marginBottom:"3rem"}}>ABOUT <span style={{color:"var(--main-color)"}}>ME</span></h1>
             <Row className='align-items-center' style={{lineHeight:"40px"}}>
                <div className='col-xxl-6 col-lg-6 col-md-6 col-sm-12' style={{paddingTop:"70px",paddingLeft:"40px"}}>
                   <p style={{color:'white',fontSize:"19px"}}>I am <span style={{color:"var(--main-color)"}}>YOUSEF AHMED</span> , I am a front-end developer with experience in developing web. I specialize in using programming languages such as <span style={{color:"var(--main-color)"}}>HTML, CSS, JavaScript, and React</span>, as well as other frameworks like Bootstrap and Material-UI. I have experience in developing quality-supported systems, ensuring that the projects<span style={{color:"var(--main-color)"}}> I oversee are of the highest quality and performance</span> .</p>
@@ -35,7 +36,14 @@ export const Home = () => {
                </div>
             </Row>
             </Container>
-            </div>
+      </div>
+      <div className='video-section container py-5'>
+         <video className='w-100 ' controls>
+         <source className='img-fluid' src={video1} type='video/mp4'/>
+         </video>
+         <h2 style={{color:"#fff",textAlign:"center"}}>Check out my profile on fiverr: <a style={{fontSize:"20px"}} href='https://www.fiverr.com/yousefjoo766' target="_blank">https://www.fiverr.com/yousefjoo766</a></h2>
+      </div>
+      
             <Skils/>
             <Projects/>
             <div className='touch text-center py-5'>

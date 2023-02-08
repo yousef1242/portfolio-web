@@ -4,7 +4,7 @@ import { Card, Container, Row } from 'react-bootstrap'
 export const Skils = () => {
   return (
     <>
-       <div className='profisional-skills' id='skills' style={{paddingTop:"125px"}}>
+       <div className='profisional-skills' id='skills' style={{paddingTop:"110px"}}>
           <Container className="text-center">
           <h1 className='mb-4' style={{color:"#fff"}}>Professional <span style={{color:"var(--main-color)"}}>Skills</span></h1>
              <Row className='mb-5'>
