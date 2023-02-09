@@ -7,6 +7,8 @@ import {Skils} from "./Skils"
 import img3 from "../imgs/Get in touch-amico.png"
 import video1 from "../imgs/Violet and Green Start-up Business Animated Presentation.mp4"
 
+
+
 export const Home = () => {
   return (
     <>
@@ -14,7 +16,7 @@ export const Home = () => {
          <Container style={{width:"80%",margin:"0px auto"}}>
             <Row>
                <div className='col-xxl-6 col-lg-6 col-md-6 col-sm-12 ' style={{paddingTop:"5rem"}}>
-                  <h2 style={{color:"#fff",marginBlock:"20px"}}>Hello!</h2>
+                  <h2  style={{color:"#fff",marginBlock:"20px"}} >Hello!<h3 className='wave'>👋</h3></h2>
                   <h1 style={{fontWeight:"bold",color:"#fff",marginBottom:"40px"}}>I'M <span style={{color:"var(--main-color)"}}>YOUSEF AHMED</span></h1>
                   <p style={{color:"#fff",fontSize:"20px",}}>Iam a front end developer and freelancer</p>
                </div>
@@ -41,7 +43,7 @@ export const Home = () => {
          <video className='w-100 ' controls>
          <source className='img-fluid' src={video1} type='video/mp4'/>
          </video>
-         <h2 style={{color:"#fff",textAlign:"center"}}>Check out my profile on fiverr: <a style={{fontSize:"16px"}} href='https://www.fiverr.com/yousefjoo766' target="_blank">https://www.fiverr.com/yousefjoo766</a></h2>
+         <h2  style={{color:"#fff",textAlign:"center"}}>Check out my profile on fiverr: <a style={{fontSize:"16px"}} href='https://www.fiverr.com/yousefjoo766' target="_blank">https://www.fiverr.com/yousefjoo766</a></h2>
       </div>
       
             <Skils/>
