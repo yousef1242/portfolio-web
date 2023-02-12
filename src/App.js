@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-    <div className='w-100' style={{background:"#222"}}>
+    <div className='w-100 App'>
     <NavbarApp/>
     <Home/>
     <Footer/>

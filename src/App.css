@@ -23,6 +23,12 @@ body{
   background-color: var(--main-color);
   border-radius: 20px;
 }
+#root{
+  background-image: linear-gradient(270deg,rgb(27 20 41),rgb(20 15 35));
+}
+.App{
+  background-image: url("./imgs/download.png");
+}
 /* navbar */
 .navbar{
   background-color: rgba(33,32,56,.8470588235294118)!important;
@@ -239,4 +245,26 @@ h1 {
   transform: rotate(-45deg);
   top: 28px;
   left: 5px;
+}
+.profisional-skills .row .col-6{
+  transition: .3s;
+}
+.projects .row .col-sm-6{
+  transition: .3s;
+}
+.profisional-skills .row .col-6:hover{
+  transform: scale(1.05);
+}
+.projects .row .col-sm-6:hover{
+  transform: scale(1.05);
+}
+@media screen and (min-width:1220px) {
+  .home-front img{
+    height: 343px!important;
+  }
+}
+@media screen and (max-width:1220px) {
+  .home-front .img-section{
+    padding: 61px 0px 0px 0px!important;
+  }
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import {Container, Row} from "react-bootstrap"
-import img1 from "../imgs/Operating system-amico.png"
+import img1 from "../imgs/about.aee0f771.png"
 import img2 from "../imgs/avatar.5852f40f.svg"
 import { Projects } from './Projects'
 import {Skils} from "./Skils"
@@ -15,13 +15,13 @@ export const Home = () => {
       <div className='home-front ' id='home' style={{padding:"8rem 0rem 8rem 0rem"}}>
          <Container style={{width:"80%",margin:"0px auto"}}>
             <Row>
-               <div className='col-xxl-6 col-lg-6 col-md-6 col-sm-12 ' style={{paddingTop:"5rem"}}>
-                  <h2  style={{color:"#fff",marginBlock:"20px"}} >Hello!<h3 className='wave'>👋</h3></h2>
+               <div className='col-xxl-6 col-lg-6 col-md-6 col-sm-12' style={{paddingTop:"5rem"}}>
+                  <h2  style={{color:"#fff",marginBlock:"20px"}} >Hello!<span className='wave'>👋</span></h2>
                   <h1 style={{fontWeight:"bold",color:"#fff",marginBottom:"40px"}}>I'M <span style={{color:"var(--main-color)"}}>YOUSEF AHMED</span></h1>
-                  <p style={{color:"#fff",fontSize:"20px",}}>Iam a front end developer and freelancer</p>
+                  <h2 style={{color:"#fff",fontSize:"25px",}}>I'm  <i class="fa-solid fa-angle-right" style={{color:"var(--main-color)"}}></i> Front end developer</h2>
                </div>
-               <div className='col-xxl-6 col-lg-6 col-md-6 col-sm-12 text-center'>
-                  <img alt="" style={{    height: "423px"}} className='img-fluid' src={img1}/>
+               <div className='col-xxl-6 col-lg-6 col-md-6 col-sm-12 text-center img-section'>
+                  <img alt=""  className='img-fluid' src={img1}/>
                </div>
             </Row>
          </Container>

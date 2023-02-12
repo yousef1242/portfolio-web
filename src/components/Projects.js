@@ -6,6 +6,7 @@ import img3 from "../imgs/Screenshot_20221213_055610.png"
 import img4 from "../imgs/Screenshot_20230119_120305.png"
 import img5 from "../imgs/Screenshot_20230121_083230.png"
 import img6 from "../imgs/Screenshot_20230121_083536.png"
+import img7 from "../imgs/Screenshot_20230212_024443.png"
 
 export const Projects = () => {
   return (
@@ -14,7 +15,7 @@ export const Projects = () => {
           <Container>
           <h1 className='text-center py-5' style={{color:"#fff"}}>Project<span style={{color:"var(--main-color)"}}>s</span></h1>
              <Row>
-                <div className='col-xxl-4 col-lg-4 col-md-4 col-sm-6'>
+                <div className='col-sm-6 col-md-4 col-lg-3'>
                      <Card>
                           <Card.Body>
                              <img className='img-fluid'  src={img2} alt=""/>
@@ -23,7 +24,7 @@ export const Projects = () => {
                           </Card.Body>
                      </Card>
                 </div>
-                <div className='col-xxl-4 col-lg-4 col-md-4 col-sm-6'>
+                <div className='col-sm-6 col-md-4 col-lg-3'>
                      <Card>
                           <Card.Body>
                              <img className='img-fluid'  src={img3} alt=""/>
@@ -32,7 +33,7 @@ export const Projects = () => {
                           </Card.Body>
                      </Card>
                 </div>
-                <div className='col-xxl-4 col-lg-4 col-md-4 col-sm-6'>
+                <div className='col-sm-6 col-md-4 col-lg-3'>
                      <Card>
                           <Card.Body>
                              <img className='img-fluid'  src={img1} alt=""/>
@@ -41,7 +42,7 @@ export const Projects = () => {
                           </Card.Body>
                      </Card>
                 </div>
-                <div className='col-xxl-4 col-lg-4 col-md-4 col-sm-6'>
+                <div className='col-sm-6 col-md-4 col-lg-3'>
                      <Card>
                           <Card.Body>
                              <img className='img-fluid'  src={img6} alt=""/>
@@ -50,7 +51,7 @@ export const Projects = () => {
                           </Card.Body>
                      </Card>
                 </div>
-                <div className='col-xxl-4 col-lg-4 col-md-4 col-sm-6'>
+                <div className='col-sm-6 col-md-4 col-lg-3'>
                      <Card>
                           <Card.Body>
                              <img className='img-fluid'  src={img5} alt=""/>
@@ -59,12 +60,21 @@ export const Projects = () => {
                           </Card.Body>
                      </Card>
                 </div>
-                <div className='col-xxl-4 col-lg-4 col-md-4 col-sm-6'>
+                <div className='col-sm-6 col-md-4 col-lg-3'>
                      <Card>
                           <Card.Body>
                              <img className='img-fluid'  src={img4} alt=""/>
                               <h4>Netflix Clone</h4>
                              <a href='https://netflex-clone-one.vercel.app/' target="-blank">Demo</a>
+                          </Card.Body>
+                     </Card>
+                </div>
+                <div className='col-sm-6 col-md-4 col-lg-3'>
+                     <Card>
+                          <Card.Body>
+                             <img className='img-fluid'  src={img7} alt=""/>
+                              <h4>Company Landing Page</h4>
+                             <a href='https://company-project-five.vercel.app/' target="-blank">Demo</a>
                           </Card.Body>
                      </Card>
                 </div>
