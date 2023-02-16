@@ -43,15 +43,7 @@ export const Projects = () => {
                        </Card.Body>
                   </Card>
              </div>
-             <div className='col-sm-6 col-md-4 col-lg-3'>
-                  <Card>
-                       <Card.Body>
-                          <img className='img-fluid'  src={img8} alt=""/>
-                           <h4>E-commerce Devices</h4>
-                          <a href='https://e-commerce-website-rouge-nine.vercel.app/' target="-blank">Demo</a>
-                       </Card.Body>
-                  </Card>
-             </div>
+          
                 <div className='col-sm-6 col-md-4 col-lg-3'>
                      <Card>
                           <Card.Body>
