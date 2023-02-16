@@ -7,6 +7,7 @@ import img4 from "../imgs/Screenshot_20230119_120305.png"
 import img5 from "../imgs/Screenshot_20230121_083230.png"
 import img6 from "../imgs/Screenshot_20230121_083536.png"
 import img7 from "../imgs/Screenshot_20230212_024443.png"
+import img8 from "../imgs/ecommerce.png"
 
 export const Projects = () => {
   return (
@@ -15,6 +16,42 @@ export const Projects = () => {
           <Container>
           <h1 className='text-center py-5' style={{color:"#fff"}}>Project<span style={{color:"var(--main-color)"}}>s</span></h1>
              <Row>
+             <div className='col-sm-6 col-md-4 col-lg-3'>
+                  <Card>
+                       <Card.Body>
+                          <img className='img-fluid'  src={img5} alt=""/>
+                           <h4>E-commerce Website</h4>
+                          <a href='https://e-commerce-ebon-five.vercel.app/' target="-blank">Demo</a>
+                       </Card.Body>
+                  </Card>
+             </div>
+             <div className='col-sm-6 col-md-4 col-lg-3'>
+                  <Card>
+                       <Card.Body>
+                          <img className='img-fluid'  src={img4} alt=""/>
+                           <h4>Netflix Clone</h4>
+                          <a href='https://netflex-clone-one.vercel.app/' target="-blank">Demo</a>
+                       </Card.Body>
+                  </Card>
+             </div>
+             <div className='col-sm-6 col-md-4 col-lg-3'>
+                  <Card>
+                       <Card.Body>
+                          <img className='img-fluid'  src={img7} alt=""/>
+                           <h4>Company Landing Page</h4>
+                          <a href='https://company-project-five.vercel.app/' target="-blank">Demo</a>
+                       </Card.Body>
+                  </Card>
+             </div>
+             <div className='col-sm-6 col-md-4 col-lg-3'>
+                  <Card>
+                       <Card.Body>
+                          <img className='img-fluid'  src={img8} alt=""/>
+                           <h4>E-commerce Devices</h4>
+                          <a href='https://e-commerce-website-rouge-nine.vercel.app/' target="-blank">Demo</a>
+                       </Card.Body>
+                  </Card>
+             </div>
                 <div className='col-sm-6 col-md-4 col-lg-3'>
                      <Card>
                           <Card.Body>
@@ -48,33 +85,6 @@ export const Projects = () => {
                              <img className='img-fluid'  src={img6} alt=""/>
                               <h4>Calculator</h4>
                              <a href='https://yousef1242.github.io/calculator/' target="-blank">Demo</a>
-                          </Card.Body>
-                     </Card>
-                </div>
-                <div className='col-sm-6 col-md-4 col-lg-3'>
-                     <Card>
-                          <Card.Body>
-                             <img className='img-fluid'  src={img5} alt=""/>
-                              <h4>E-commerce Website</h4>
-                             <a href='https://e-commerce-ebon-five.vercel.app/' target="-blank">Demo</a>
-                          </Card.Body>
-                     </Card>
-                </div>
-                <div className='col-sm-6 col-md-4 col-lg-3'>
-                     <Card>
-                          <Card.Body>
-                             <img className='img-fluid'  src={img4} alt=""/>
-                              <h4>Netflix Clone</h4>
-                             <a href='https://netflex-clone-one.vercel.app/' target="-blank">Demo</a>
-                          </Card.Body>
-                     </Card>
-                </div>
-                <div className='col-sm-6 col-md-4 col-lg-3'>
-                     <Card>
-                          <Card.Body>
-                             <img className='img-fluid'  src={img7} alt=""/>
-                              <h4>Company Landing Page</h4>
-                             <a href='https://company-project-five.vercel.app/' target="-blank">Demo</a>
                           </Card.Body>
                      </Card>
                 </div>

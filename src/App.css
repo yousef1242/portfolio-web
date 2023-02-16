@@ -253,11 +253,9 @@ h1 {
   transition: .3s;
 }
 .profisional-skills .row .col-6:hover{
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
-.projects .row .col-sm-6:hover{
-  transform: scale(1.05);
-}
+
 @media screen and (min-width:1220px) {
   .home-front img{
     height: 343px!important;

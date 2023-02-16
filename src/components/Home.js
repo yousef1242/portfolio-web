@@ -16,7 +16,7 @@ export const Home = () => {
          <Container style={{width:"80%",margin:"0px auto"}}>
             <Row>
                <div className='col-xxl-6 col-lg-6 col-md-6 col-sm-12' style={{paddingTop:"5rem"}}>
-                  <h2  style={{color:"#fff",marginBlock:"20px"}} >Hello!<span className='wave'>👋</span></h2>
+                  <h2 className='wow slideInLeft'  style={{color:"#fff",marginBlock:"20px"}} >Hello!<span className='wave'>👋</span></h2>
                   <h1 style={{fontWeight:"bold",color:"#fff",marginBottom:"40px"}}>I'M <span style={{color:"var(--main-color)"}}>YOUSEF AHMED</span></h1>
                   <h2 style={{color:"#fff",fontSize:"25px",}}>I'm  <i class="fa-solid fa-angle-right" style={{color:"var(--main-color)"}}></i> Front end developer</h2>
                </div>
@@ -53,7 +53,7 @@ export const Home = () => {
                <h1 style={{color:"#fff",marginBottom:"30px",fontSize:"40px"}}>Get In <span style={{color:"var(--main-color)"}}>Touch</span></h1>
                <a href="https://www.instagram.com/yousef__1241/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                <a style={{marginLeft:"20px"}} href="https://web.facebook.com/profile.php?id=100088567061728"  target="_blank" ><i class="fa-brands fa-facebook"></i></a>
-               <a style={{marginLeft:"20px"}} href="https://twitter.com/Front_Joo" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+               <a style={{marginLeft:"20px"}} href="http://wa.me/+01145667099" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
                <a style={{marginLeft:"20px"}} href="https://github.com/yousef1242?tab=repositories" target="_blank"><i class="fa-brands fa-github"></i></a>
             </div>
     </>
