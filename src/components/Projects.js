@@ -7,7 +7,7 @@ import img4 from "../imgs/Screenshot_20230119_120305.png"
 import img5 from "../imgs/Screenshot_20230121_083230.png"
 import img6 from "../imgs/Screenshot_20230121_083536.png"
 import img7 from "../imgs/Screenshot_20230212_024443.png"
-import img8 from "../imgs/ecommerce.png"
+import img8 from "../imgs/Screenshot_20230218_023120.png"
 
 export const Projects = () => {
   return (
@@ -30,7 +30,16 @@ export const Projects = () => {
                        <Card.Body>
                           <img className='img-fluid'  src={img4} alt=""/>
                            <h4>Netflix Clone</h4>
-                          <a href='https://netflex-clone-one.vercel.app/' target="-blank">Demo</a>
+                          <a href='https://netflex-clone-three.vercel.app/' target="-blank">Demo</a>
+                       </Card.Body>
+                  </Card>
+             </div>
+             <div className='col-sm-6 col-md-4 col-lg-3'>
+                  <Card>
+                       <Card.Body>
+                          <img className='img-fluid'  src={img8} alt=""/>
+                           <h4>Netflix Clone</h4>
+                          <a href='https://portfolio-web-rosy.vercel.app/' target="-blank">Demo</a>
                        </Card.Body>
                   </Card>
              </div>
