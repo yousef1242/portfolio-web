@@ -39,7 +39,7 @@ export const Projects = () => {
                        <Card.Body>
                           <img className='img-fluid'  src={img8} alt=""/>
                            <h4>Portfolio</h4>
-                          <a href='https://portfolio-web-rosy.vercel.app/' target="-blank">Demo</a>
+                          <a href='https://portfolio-web-mu-six.vercel.app/' target="-blank">Demo</a>
                        </Card.Body>
                   </Card>
              </div>
