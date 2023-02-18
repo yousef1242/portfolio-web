@@ -6,7 +6,7 @@ import img3 from "../imgs/Screenshot_20221213_055610.png"
 import img4 from "../imgs/Screenshot_20230119_120305.png"
 import img5 from "../imgs/Screenshot_20230121_083230.png"
 import img6 from "../imgs/Screenshot_20230121_083536.png"
-import img7 from "../imgs/Screenshot_20230212_024443.png"
+import img7 from "../imgs/Screenshot_20230218_025204.png"
 import img8 from "../imgs/Screenshot_20230218_023120.png"
 
 export const Projects = () => {
@@ -38,7 +38,7 @@ export const Projects = () => {
                   <Card>
                        <Card.Body>
                           <img className='img-fluid'  src={img8} alt=""/>
-                           <h4>Netflix Clone</h4>
+                           <h4>Portfolio</h4>
                           <a href='https://portfolio-web-rosy.vercel.app/' target="-blank">Demo</a>
                        </Card.Body>
                   </Card>

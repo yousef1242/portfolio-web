@@ -5,7 +5,7 @@ import img2 from "../imgs/avatar.5852f40f.svg"
 import { Projects } from './Projects'
 import {Skils} from "./Skils"
 import img3 from "../imgs/Get in touch-amico.png"
-import video1 from "../imgs/Violet and Green Start-up Business Animated Presentation.mp4"
+import video1 from "../imgs/Yellow Creative Free Food Delivery Video .mp4"
 
 
 
