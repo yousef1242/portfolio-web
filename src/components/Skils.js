@@ -11,7 +11,7 @@ export const Skils = () => {
                 <div className='col-6 col-md-3 col-xm-3'>
                    <Card>
                       <Card.Body>
-                         <img className='img-fluid' alt='' src='https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_html_icon_130541.png'/>
+                         <img className='img-fluid' alt='' src='https://clipground.com/images/html-logo-png-3.png'/>
                       </Card.Body>
                    </Card>
                 </div>

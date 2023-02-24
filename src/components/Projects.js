@@ -8,6 +8,7 @@ import img5 from "../imgs/Screenshot_20230121_083230.png"
 import img6 from "../imgs/Screenshot_20230121_083536.png"
 import img7 from "../imgs/Screenshot_20230218_025204.png"
 import img8 from "../imgs/Screenshot_20230218_023120.png"
+import img9 from "../imgs/apple ecommerce.png"
 
 export const Projects = () => {
   return (
@@ -16,6 +17,15 @@ export const Projects = () => {
           <Container>
           <h1 className='text-center py-5' style={{color:"#fff"}}>Project<span style={{color:"var(--main-color)"}}>s</span></h1>
              <Row>
+             <div className='col-sm-6 col-md-4 col-lg-3'>
+                  <Card>
+                       <Card.Body>
+                          <img className='img-fluid'  src={img9} alt=""/>
+                           <h4>E-commerce-Apple</h4>
+                          <a href='https://ecommerce-apple-psi.vercel.app/' target="-blank">Demo</a>
+                       </Card.Body>
+                  </Card>
+             </div>
              <div className='col-sm-6 col-md-4 col-lg-3'>
                   <Card>
                        <Card.Body>
