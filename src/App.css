@@ -255,6 +255,10 @@ h1 {
 .profisional-skills .row .col-6:hover{
   transform: scale(1.02);
 }
+/* buuton filter */
+.buttonFilter{
+  background: var(--main-color)!important;
+}
 
 @media screen and (min-width:1220px) {
   .home-front img{

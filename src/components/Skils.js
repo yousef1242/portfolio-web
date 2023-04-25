@@ -39,7 +39,21 @@ export const Skils = () => {
                 <div className='col-6 col-md-3 col-xm-6'>
                    <Card>
                       <Card.Body>
-                         <img className='img-fluid' alt='' src='https://opencollective-production.s3.us-west-1.amazonaws.com/ada636e0-395b-11ea-8ab7-b3f0317bbc7c.png'/>
+                         <img className='img-fluid' alt='' src='https://download.logo.wine/logo/Node.js/Node.js-Logo.wine.png'/>
+                      </Card.Body>
+                   </Card>
+                </div>
+                <div className='col-6 col-md-3 col-xm-6'>
+                   <Card>
+                      <Card.Body>
+                         <img className='img-fluid' alt='' src='https://devtechnosys.com/insights/wp-content/uploads/2019/06/express-js-logo.png'/>
+                      </Card.Body>
+                   </Card>
+                </div>
+                <div className='col-6 col-md-3 col-xm-6'>
+                   <Card>
+                      <Card.Body>
+                         <img className='img-fluid' alt='' src='https://dwglogo.com/wp-content/uploads/2017/12/MongoDB_logo_01.png'/>
                       </Card.Body>
                    </Card>
                 </div>
