@@ -7,6 +7,8 @@ import img7 from "./imgs/acadimya.png"
 import img8 from "./imgs/khamsta.png"
 import img9 from "./imgs/shopping.png"
 import img10 from "./imgs/Screenshot 2023-04-25 192004.png"
+import img11 from "./imgs/mern stack ecommerce.png"
+import img12 from "./imgs/hotel booking.png"
 
 
 
@@ -18,10 +20,22 @@ export const projects = [
         category : 'reactjs'
     },
     {
+        image : img11,
+        name : 'Mern Stack Ecommerce',
+        link : 'https://mern-stack-ecommerce-frontend.vercel.app/',
+        category : 'full stack'
+    },
+    {
+        image : img12,
+        name : 'Mern Stack Hotel Booking',
+        link : 'https://booking-app-mern-frontend.vercel.app/',
+        category : 'full stack'
+    },
+    {
         image : img10,
         name : 'Ecommerce-nodejs',
         link : 'https://faithful-hen-jodhpurs.cyclic.app/',
-        category : 'nodejs'
+        category : 'full stack'
     },
     {
         image : img2,

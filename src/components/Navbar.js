@@ -1,42 +1,50 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Container, Nav, NavLink, Navbar } from "react-bootstrap";
 
 export const NavbarApp = () => {
   return (
     <>
-    <nav class="navbar navbar-expand-lg ">
-  <div class="container">
-    <Link class="navbar-brand" to="/" style={{color:"#fff"}}>Yousef Ahmed</Link>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <label for="burger" class="burger">
-       <input id="burger" type="checkbox"/>
-        <span style={{background:"#fff"}}></span>
-       <span style={{background:"#fff"}}></span>
-       <span style={{background:"#fff"}}></span>
-   </label>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-        <i  class="fa-solid fa-house"></i>
-          <a class="nav-link" aria-current="page" href="#home">Home</a>
-        </li>
-        <li class="nav-item">
-        <i class="fa-solid fa-address-card"></i>
-          <a class="nav-link" aria-current="page" href="#aboutMe">About Me</a>
-        </li>
-        <li class="nav-item">
-        <i class="fa-solid fa-graduation-cap"></i>
-        <a class="nav-link" aria-current="page" href="#skills">Skills</a>
-        </li>
-        <li class="nav-item">
-        <i class="fa-solid fa-laptop-code"></i>
-        <a class="nav-link" aria-current="page" href="#project">Projects</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+      <Navbar expand="lg" className="bg-body-tertiary">
+        <Container>
+          <Navbar.Brand style={{ color: "#fff" }} href="#home">
+            YOUSEF AHMED
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav">
+            <i
+              style={{ color: "#fff", fontSize: "24px" }}
+              className="fa-solid fa-bars-staggered"
+            ></i>
+          </Navbar.Toggle>
+          <Navbar.Collapse id="basic-navbar-nav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <i class="fa-solid fa-house"></i>
+                <NavLink class="nav-link" aria-current="page" href="#home">
+                  Home
+                </NavLink>
+              </li>
+              <li class="nav-item">
+                <i class="fa-solid fa-address-card"></i>
+                <NavLink class="nav-link" aria-current="page" href="#aboutMe">
+                  About Me
+                </NavLink>
+              </li>
+              <li class="nav-item">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <NavLink class="nav-link" aria-current="page" href="#skills">
+                  Skills
+                </NavLink>
+              </li>
+              <li class="nav-item">
+                <i class="fa-solid fa-laptop-code"></i>
+                <NavLink class="nav-link" aria-current="page" href="#project">
+                  Projects
+                </NavLink>
+              </li>
+            </ul>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
     </>
-  )
-}
+  );
+};
